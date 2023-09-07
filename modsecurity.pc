@@ -1,0 +1,11 @@
+prefix=/usr/local/modsecurity
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ModSecurity
+Description: ModSecurity API
+Version: 3.0.10
+Cflags: -I${prefix}/include
+Libs: -L${exec_prefix}/lib -lmodsecurity
+Libs.private: @CURL_LDADD@ @GEOIP_LDADD@ @MAXMIND_LDADD@  @LIBXML2_LDADD@ @LMDB_LDADD@ @LUA_LDADD@ @PCRE_LDADD@ @SSDEEP_LDADD@ @YAJL_LDADD@

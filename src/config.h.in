@@ -1,0 +1,121 @@
+/* src/config.h.in.  Generated  by cmake.  */
+//-------------- check os -----------------
+/* Define if the operating system is AIX */
+#cmakedefine01 AIX
+
+/* Define if the operating system is DRAGONFLY */
+#cmakedefine01 DRAGONFLY
+
+/* Define if the operating system is FREEBSD */
+#cmakedefine01 FREEBSD
+
+/* Define if the operating system is HPUX */
+#cmakedefine01 HPUX
+
+/* Define if the operating system is LINUX */
+#cmakedefine01 LINUX
+
+/* Define if the operating system is Macintosh OSX */
+#cmakedefine01 MACOSX
+
+/* Define if the operating system is NETBSD */
+#cmakedefine01 NETBSD
+
+/* Define if the operating system is OPENBSD */
+#cmakedefine01 OPENBSD
+
+/* Define if the operating system is SOLARIS */
+#cmakedefine01 SOLARIS
+
+//----- check headers(may only HAVE_UNISTD_H be used) ------
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#cmakedefine01 HAVE_DLFCN_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#cmakedefine01 HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <iostream> header file. */
+#cmakedefine01 HAVE_IOSTREAM
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#cmakedefine01 HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#cmakedefine01 HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#cmakedefine01 HAVE_STDLIB_H
+
+/* Define to 1 if you have the <string> header file. */
+#cmakedefine01 HAVE_STRING
+
+/* Define to 1 if you have the <strings.h> header file. */
+#cmakedefine01 HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#cmakedefine01 HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#cmakedefine01 HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#cmakedefine01 HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/utsname.h> header file. */
+#cmakedefine01 HAVE_SYS_UTSNAME_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#cmakedefine01 HAVE_UNISTD_H
+
+/* Define to 1 if all of the C90 standard headers exist (not just the ones
+   required in a freestanding environment). This macro is provided for
+   backward compatibility; new code need not use it. */
+#cmakedefine01 STDC_HEADERS
+
+//-------------- package info -----------------
+/* Name of package */
+#define PACKAGE "@PROJECT_NAME@"
+
+/* Define to the address where bug reports for this package should be sent. */
+#define PACKAGE_BUGREPORT "@PROJECT_DESCRIPTION@"
+
+/* Define to the full name of this package. */
+#define PACKAGE_NAME "@PROJECT_NAME@"
+
+/* Define to the full name and version of this package. */
+#define PACKAGE_STRING "@PROJECT_NAME@"
+
+/* Define to the one symbol short name of this package. */
+#define PACKAGE_TARNAME "@PROJECT_NAME@"
+
+/* Define to the home page for this package. */
+#define PACKAGE_URL "@PROJECT_HOMEPAGE_URL@"
+
+/* Define to the version of this package. */
+#define PACKAGE_VERSION "@PROJECT_NAME@ @PROJECT_VERSION@"
+
+/* Version number of package */
+#define VERSION "@PROJECT_VERSION@"
+
+//-------------- check dependencies -----------------
+/* Define if libcurl is available */
+#cmakedefine MSC_WITH_CURL "@WITH_CURL@"
+#cmakedefine01 WITH_CURL
+#cmakedefine01 WITH_YAJL
+#cmakedefine01 WITH_GEOIP
+#cmakedefine01 WITH_MAXMIND
+#cmakedefine01 WITH_SSDEEP
+#cmakedefine01 WITH_YAJL
+#cmakedefine01 WITH_LMDB
+#cmakedefine01 WITH_LIBXML2
+#cmakedefine01 WITH_PCRE
+#cmakedefine01 WITH_PCRE2
+#cmakedefine01 WITH_LUA
+
+//-------------- others(maybe useless) -----------------
+/* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
+   `char[]'. */
+#cmakedefine YYTEXT_POINTER
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#cmakedefine LT_OBJDIR

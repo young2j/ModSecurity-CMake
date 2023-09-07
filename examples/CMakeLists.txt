@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.15)
+
+project(examples)
+
+add_subdirectory(multiprocess_c)
+add_subdirectory(reading_logs_via_rule_message)
+add_subdirectory(reading_logs_with_offset)
+add_subdirectory(simple_example_using_c)
+add_subdirectory(using_bodies_in_chunks)

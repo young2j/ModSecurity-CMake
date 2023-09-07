@@ -1,0 +1,13 @@
+{
+  "name": "modsecurity",
+  "version": "3.0",
+  "dependencies": [
+    "yajl",
+    "lmdb",
+    "curl",
+    "libxml2",
+    "pcre",
+    "pcre2",
+    "lua"
+  ]
+}

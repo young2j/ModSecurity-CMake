@@ -1,6 +1,5 @@
 # ModSecurity configure.ac
 
-
 # Get the hash of the last commit, to be used if it is not an
 # official release.
 AC_DEFUN([MSC_GIT_HASH], m4_esyscmd_s(git log -1 --format="%h" --abbrev-commit))
@@ -227,7 +226,7 @@ AC_SUBST([MSC_VERSION])
 MSC_GIT_VERSION=msc_version_git
 AC_SUBST([MSC_GIT_VERSION])
 
-
+# DebugLogs
 AC_ARG_ENABLE(debug-logs,
     [AS_HELP_STRING([--disable-debug-logs],[Turn off the SecDebugLog feature])],
 
