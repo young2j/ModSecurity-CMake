@@ -1,4 +1,35 @@
+
+
+
+
 <h1 align="center">ModSecurity-CMake</h1>
+
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/young2j/modsecurity-cmake?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/young2j/modsecurity-cmake?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/young2j/modsecurity-cmake?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/young2j/modsecurity-cmake?color=56BEB8">
+  <img alt="Github issues" src="https://img.shields.io/github/issues/young2j/modsecurity-cmake?color=56BEB8" /> 
+  <img alt="Github forks" src="https://img.shields.io/github/forks/young2j/modsecurity-cmake?color=56BEB8" /> 
+  <img alt="Github stars" src="https://img.shields.io/github/stars/young2j/modsecurity-cmake?color=56BEB8" /> 
+  </p>
+
+
+<hr>
+
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#hammer_and_wrench-build">Build</a> &#xa0; | &#xa0;
+  <a href="#rocket-todo">Todo</a> &#xa0;
+</p>
+
+<br>
+
+> :rage::rage::rage:Dumping nuclear wastewater into the ocean, damn it! :bomb::japan::boom::triumph::triumph::triumph:
+
+
 
 ## 🎯 About
 
@@ -6,15 +37,21 @@
 
 This repository is forked from the modsecurity v3/master and uses cmake for building.
 
-## ✨ Features
+
+
+## :sparkles: Features
 
 This repository
 
-* ✔️ provides a cmake build flow.
-* ✔️ provides more friendly build prompts.
-* ✔️ uses vcpkg for dependency management.
+✔️ provides a cmake build flow.<br/>
 
-## 🛠 Build
+✔️ provides more friendly build prompts.<br/>
+
+✔️ uses vcpkg for dependency management.<br/>
+
+
+
+## :hammer_and_wrench: Build
 
 ### automake
 
@@ -48,7 +85,9 @@ $ cmake --build .
 
 ![cmake-output.png](./doc/cmake-output.png)
 
-## 🚀 TODO
+
+
+## :rocket: TODO
 
 * find geoip/maxmind module to cmake build.
 * find ssdeep module to cmake build.
@@ -56,4 +95,3 @@ $ cmake --build .
 * add CMakeLists.txt for building tools directory.
 * add cmake install configuration.
 * add cmake export configuration.
-
