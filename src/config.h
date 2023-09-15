@@ -100,17 +100,17 @@
 //-------------- check dependencies -----------------
 /* Define if libcurl is available */
 /* #undef MSC_WITH_CURL */
-#define WITH_CURL 0
-#define WITH_YAJL 0
-#define WITH_GEOIP 0
-#define WITH_MAXMIND 0
-#define WITH_SSDEEP 0
-#define WITH_YAJL 0
-#define WITH_LMDB 0
-#define WITH_LIBXML2 0
-#define WITH_PCRE 0
-#define WITH_PCRE2 0
-#define WITH_LUA 0
+/* #undef WITH_CURL */
+#define WITH_YAJL
+/* #undef WITH_GEOIP */
+/* #undef WITH_MAXMIND */
+/* #undef WITH_SSDEEP */
+#define WITH_YAJL
+#define WITH_LMDB
+#define WITH_LIBXML2
+#define WITH_PCRE
+/* #undef WITH_PCRE2 */
+/* #undef WITH_LUA */
 
 //-------------- others(maybe useless) -----------------
 /* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a

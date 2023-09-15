@@ -50,3 +50,4 @@ examples/using_bodies_in_chunks/simple_request
 
 doc/local
 build
+.cache

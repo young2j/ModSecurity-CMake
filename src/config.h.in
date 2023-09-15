@@ -100,17 +100,17 @@
 //-------------- check dependencies -----------------
 /* Define if libcurl is available */
 #cmakedefine MSC_WITH_CURL "@WITH_CURL@"
-#cmakedefine01 WITH_CURL
-#cmakedefine01 WITH_YAJL
-#cmakedefine01 WITH_GEOIP
-#cmakedefine01 WITH_MAXMIND
-#cmakedefine01 WITH_SSDEEP
-#cmakedefine01 WITH_YAJL
-#cmakedefine01 WITH_LMDB
-#cmakedefine01 WITH_LIBXML2
-#cmakedefine01 WITH_PCRE
-#cmakedefine01 WITH_PCRE2
-#cmakedefine01 WITH_LUA
+#cmakedefine WITH_CURL
+#cmakedefine WITH_YAJL
+#cmakedefine WITH_GEOIP
+#cmakedefine WITH_MAXMIND
+#cmakedefine WITH_SSDEEP
+#cmakedefine WITH_YAJL
+#cmakedefine WITH_LMDB
+#cmakedefine WITH_LIBXML2
+#cmakedefine WITH_PCRE
+#cmakedefine WITH_PCRE2
+#cmakedefine WITH_LUA
 
 //-------------- others(maybe useless) -----------------
 /* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
